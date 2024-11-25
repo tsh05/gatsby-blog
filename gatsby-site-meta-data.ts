@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
-  description: `개발자 단민`,
+  title: `blankspace`,
+  description: `blankspace`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
+  siteUrl: `https://tsh05-blog.netify.app`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`danmin20/danmin-gatsby-blog`,
+      repo: ``, 
     },
   },
 
@@ -21,22 +21,21 @@ export default {
    * introduce yourself
    */
   author: {
-    name: `이정민`,
-    nickname: `단민`,
-    stack: ['Frontend', 'React', 'Typescript'],
+    name: `김소연`,
+    nickname: `Soyeon Kim`,
+    stack: ['Web Hacking'],
     bio: {
-      email: `ljm991108@gmail.com`,
-      residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      email: `tsh8802@gmail.com`,
+      residence: 'Daegu, South Korea',
+      bachelorDegree: 'Yeungnam Univ. Information and Communication Engineering (2021.03-2025.02)',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com/tsh05`,
+      linkedIn: `https://www.linkedin.com/in/tsh05/`,
+      resume: `https://www.notion.so/tsh05/10c0ed25cc26802fa57fd675671f3496?pvs=4`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'https://blog.naver.com/tsh05',
     },
   },
 
@@ -45,12 +44,12 @@ export default {
    */
   featured: [
     {
-      title: 'category1',
-      category: 'featured-category1',
+      title: 'Web Server',
+      category: 'Web Server',
     },
     {
-      title: 'category2',
-      category: 'featured-category2',
+      title: 'Web Hacking',
+      category: 'Web Hacking',
     },
   ],
 
@@ -89,10 +88,10 @@ export default {
    */
   projects: [
     {
-      title: 'Portfolio',
-      description: '포트폴리오',
-      techStack: ['React', 'Next.js', 'Typescript'],
-      thumbnailUrl: '', // Path to your in the 'assets' folder
+      title: 'Capstone Design Project',
+      description: 'MIDAS종합설계',
+      techStack: ['Software', 'Database', 'Embedded'],
+      thumbnailUrl: 'cdp.png', // Path to your in the 'assets' folder
       links: {
         post: '',
         github: '',
