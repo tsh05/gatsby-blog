@@ -36,6 +36,7 @@ export default {
     },
     dropdown: {
       tistory: 'https://blog.naver.com/tsh05',
+      velog: '',
     },
   },
 
