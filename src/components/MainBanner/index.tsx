@@ -20,18 +20,17 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
     <S.Wrapper>
       <S.IntroWrapper>
         <S.Title>
-          안녕하세요!
+          Welcome to 
+          <br />
+          <strong>
+            <ReactRotatingText items={[name, nickname]} />
+          </strong>
+          <span>'s</span>
           <br />
           <strong>
             <ReactRotatingText items={stack} />
           </strong>
-          <span>를 좋아하는</span>
-          <br />
-          개발자{' '}
-          <strong>
-            <ReactRotatingText items={[name, nickname]} />
-          </strong>
-          입니다.
+          {' '}space!
         </S.Title>
         <Image alt='thumbnail' src='thumbnail.png' />
         <S.SocialWrapper>
@@ -63,9 +62,9 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
         </S.SocialWrapper>
       </S.IntroWrapper>
 
-      <S.BuyMeACoffeeWrapper>
-        <BuyMeACoffee />
-      </S.BuyMeACoffeeWrapper>
+      {/*<S.BuyMeACoffeeWrapper>*/}
+      {/*  <BuyMeACoffee />*/}
+      {/*</S.BuyMeACoffeeWrapper>*/}
     </S.Wrapper>
   );
 };
